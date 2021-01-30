@@ -43,7 +43,7 @@ p {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	text-decoration: none;
-	border-radius: 20px;
+  border-radius: 20px;
 }
 
 .primary-blue-button a {
@@ -131,22 +131,33 @@ p {
 }
 .navbar-brand {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 25px;
+	font-size: 20px;
 	text-transform: uppercase;
-	color: #fff!important;
+	color: #eae7f5!important;
 	transition: all 0.5s;
 
 }
 .navbar-brand em {
 	font-style: normal;
-	color: #f7c552;
-	font-size: 32px;
+	color: #1daaaf;
+  font-size: 25px;
+  padding-left: 15px;
+  padding-top: 15px;
+  line-height: normal;
+
+
 }
+
 .header.active .navbar-brand {
 	color: #121212!important;
 }
 .header .navbar-brand {
+
+    padding-top: 20px;
     font-weight: 800;
+    line-height: 100%;
+
+
 }
 .navbar-inverse {
 	background-image: none;
@@ -157,7 +168,7 @@ p {
     border: none;
 }
 .page-section {
-    padding: 80px 0;
+    padding: px 0;
 }
 .navbar-inverse .navbar-toggle {
 	margin-top: 22px;
@@ -186,6 +197,7 @@ bootstrap.min.css:5
     }
     .navbar-nav {
         float: right;
+
     }
 }
 @media (max-width: 480px) {
@@ -209,7 +221,7 @@ bootstrap.min.css:5
 
 .baner-content {
 	width: 100%;
-  	padding-top: 35vh;
+  	padding-top: 20vh;
   	text-align: center;
   	background-image: url(../img/banner_bg.jpg);
   	vertical-align: middle;
