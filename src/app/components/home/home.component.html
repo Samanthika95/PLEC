@@ -34,11 +34,23 @@
 
 <div class="parallax-content baner-content" id="home">
   <div class="container">
-      <div class="text-content">
-          <h2><em>TINKER</em> <span>HTML5</span> Template</h2>
-          <p>Tinker is free HTML CSS template from templatemo.com that can be used for any kind of website. Please tell your friends about us. Thank you.</p>
-
-      </div>
+     <owl-carousel [options]="homeSlider" [carouselClasses]="['owl-theme','customerClassName']">
+       <div class="item">
+          <img src = "assets/img/slideshow.jpg">
+       </div>
+       <div class="item">
+        <img src = "assets/img/slideshow03.jpg">
+       </div>
+       <div class="item">
+        <img src = "assets/img/slideshow05.jpg">
+       </div>
+       <div class="item">
+        <img src = "assets/img/slideshow07.jpg">
+       </div>
+       <div class="item">
+        <img src = "assets/img/slideshow08.jpg">
+       </div>
+     </owl-carousel>
   </div>
 </div>
 

@@ -12,4 +12,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  homeSlider={items:1, dots: true, nav:true};
+  
+
 }
