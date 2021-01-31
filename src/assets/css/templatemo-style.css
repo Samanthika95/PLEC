@@ -909,7 +909,8 @@ footer .connect-us ul li a:hover {
 
 	.navbar-nav {
 		margin-top: 0px;
-		margin-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(250, 250, 250, 0.95);
 	}
 
 	.navbar-inverse .navbar-nav>li {
